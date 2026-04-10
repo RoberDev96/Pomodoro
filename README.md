@@ -6,6 +6,8 @@ A modern Pomodoro Timer application built with **React**, **TypeScript**, and **
 
 Check out the live application: [Pomodoro Timer](https://roberdev96.github.io/Pomodoro/)
 
+Project reference: [Pomodoro Timer Project on roadmap.sh](https://roadmap.sh/projects/pomodoro-timer)
+
 ## ✨ Features
 
 - ⏰ **Pomodoro Timer** - 25 minutes of focused work
