@@ -48,10 +48,10 @@ export function Box() {
           width={20} height={20} /></button>
       </header> */}
       <nav className="mt-14 h-10">
-        <ul className="navi flex justify-around px-28">
+        <ul className="navi flex justify-around px-4 sm:px-8 md:px-16 lg:px-28">
           {navBar.map((item) => <li
-            className={`w-24 text-center cursor-pointer text-[15px] h-8 text-white ${nav === item.name
-              ? "cursor-pointer font-bold border rounded-lg border-transparent bg-[rgba(255,255,255,0.1)]  transition-transform"
+            className={`w-20 sm:w-24 text-center cursor-pointer text-[12px] sm:text-[15px] h-8 text-white ${nav === item.name
+              ? "cursor-pointer font-bold border rounded-lg border-transparent bg-[rgba(255,255,255,0.1)] transition-transform"
               : ""
               }`}
 
@@ -77,7 +77,7 @@ export function Box() {
       <main className="mt-16 flex justify-center h-28">
         {parametros()}
       </main>
-      <div className="w-full px-24">
+      <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24">
         <div className="w-full bg-[#474750] rounded-full h-2">
           <div className="bg-gray-400 h-2 rounded-full" style={{ width: `${progress}%` }} />
         </div>
@@ -87,4 +87,3 @@ export function Box() {
 
   )
 }
-

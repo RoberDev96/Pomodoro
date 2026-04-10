@@ -108,7 +108,7 @@ export function Focus({ onProgressUpdate, minInic = 10 }: FocusProps) {
 
     return (
         <main>
-            <div className="text-8xl w-fit text-white font-bold ml-20">
+            <div className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl w-fit text-white font-bold mx-auto sm:ml-20">
                 <Countdown
                     date={targetDate}
                     renderer={renderer}
@@ -117,11 +117,11 @@ export function Focus({ onProgressUpdate, minInic = 10 }: FocusProps) {
                 />
             </div>
             <section className="mt-12">
-                <ul className="flex justify-center gap-16">
+                <ul className="flex flex-wrap justify-center gap-2 sm:gap-4 md:gap-8 lg:gap-16 px-4 sm:px-0">
                     {button.map(item => (
                         <li key={item.id}
                             onClick={() => handleSum(item.min)}
-                            className=" text-[#595963] hover:text-white cursor-pointer"
+                            className="text-[#595963] hover:text-white cursor-pointer text-sm sm:text-base whitespace-nowrap"
                         >+{item.min}min</li>
                     ))}
                 </ul>
