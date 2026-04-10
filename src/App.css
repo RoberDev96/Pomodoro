@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+    background: #000000;
+}
+
+.navi {
+    transition: all 0.3s ease;
+}
+
+.navi :hover {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.main{
+    position:absolute
+}
