@@ -13,7 +13,7 @@ export function Box() {
 
   const [nav, setNav] = useState('Focus')
   const [progress, setProgress] = useState(0);
-  const [showCustomTime, setShowCustomTime] = useState(false);
+  // const [showCustomTime, setShowCustomTime] = useState(false);
 
   const navBar: Props[] = [
     { name: 'Focus', id: 0 },

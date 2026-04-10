@@ -98,7 +98,7 @@ export function Focus({ onProgressUpdate, minInic = 10 }: FocusProps) {
         setTargetDate(nuevoMin)
         setTiempoRestante(newSeconds)
         
-        onProgressUpdate(0);
+        onProgressUpdate?.(0);
         
         if (!isRunning) {
             setHasStarted(false);
